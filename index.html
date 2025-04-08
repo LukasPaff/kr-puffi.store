@@ -3,110 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kr Puffi</title>
+  <title>KR Puffi Store</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fdfdfd;
       margin: 0;
-      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
       color: #333;
     }
     header {
-      text-align: center;
+      background-color: #000;
+      color: #fff;
       padding: 20px;
-      background-color: #fff;
+      text-align: center;
     }
     header img {
       max-height: 80px;
     }
-    h1 {
-      font-size: 32px;
-      margin-top: 10px;
-    }
-    .products {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 30px;
-      gap: 20px;
+    .store-container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
     .product {
       background: #fff;
-      border: 1px solid #eee;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      width: 250px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
       text-align: center;
-      padding: 15px;
     }
     .product img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       border-radius: 8px;
     }
     .product h2 {
-      font-size: 18px;
-      margin: 10px 0 5px;
+      margin: 15px 0 5px;
+    }
+    .product p {
+      margin: 5px 0;
     }
     .price {
+      color: #e91e63;
       font-weight: bold;
-      color: #27ae60;
-      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #000;
+      color: #fff;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Kr Puffi Logo" />
-    <h1>Kr Puffi</h1>
+    <img src="https://raw.githubusercontent.com/LukasPaff/kr-puffi.store/main/logo.png" alt="KR Puffi Logo"/>
+    <h1>KR Puffi Store</h1>
   </header>
-  <section class="products">
+
+  <div class="store-container">
     <div class="product">
-      <img src="product_1.jpeg" alt="Cherry Bomb" />
-      <h2>Cherry Bomb</h2>
-      <p class="price">15 €</p>
+      <img src="https://raw.githubusercontent.com/LukasPaff/kr-puffi.store/main/product1.jpg" alt="KR Puffi Classic"/>
+      <h2>KR Puffi Classic</h2>
+      <p>The original puffi experience. Soft, smooth, and stylish.</p>
+      <p class="price">$19.99</p>
     </div>
+
     <div class="product">
-      <img src="product_2.jpeg" alt="Peach Mango" />
-      <h2>Peach Mango</h2>
-      <p class="price">15 €</p>
+      <img src="https://raw.githubusercontent.com/LukasPaff/kr-puffi.store/main/product2.jpg" alt="KR Puffi Mint"/>
+      <h2>KR Puffi Mint</h2>
+      <p>A refreshing minty puff with cool clouds.</p>
+      <p class="price">$21.99</p>
     </div>
+
     <div class="product">
-      <img src="product_3.jpeg" alt="Strawberry Mango" />
-      <h2>Strawberry Mango</h2>
-      <p class="price">15 €</p>
+      <img src="https://raw.githubusercontent.com/LukasPaff/kr-puffi.store/main/product3.jpg" alt="KR Puffi Deluxe"/>
+      <h2>KR Puffi Deluxe</h2>
+      <p>Premium look. Rich flavor. Ultimate puffi style.</p>
+      <p class="price">$24.99</p>
     </div>
-    <div class="product">
-      <img src="product_4.jpeg" alt="Tropical Fruit" />
-      <h2>Tropical Fruit</h2>
-      <p class="price">15 €</p>
-    </div>
-    <div class="product">
-      <img src="product_5.jpeg" alt="Blue Razz Ice" />
-      <h2>Blue Razz Ice</h2>
-      <p class="price">15 €</p>
-    </div>
-    <div class="product">
-      <img src="product_6.jpeg" alt="Tripple Berry Ice" />
-      <h2>Tripple Berry Ice</h2>
-      <p class="price">15 €</p>
-    </div>
-    <div class="product">
-      <img src="product_7.jpeg" alt="Grape Ice" />
-      <h2>Grape Ice</h2>
-      <p class="price">15 €</p>
-    </div>
-    <div class="product">
-      <img src="product_8.jpeg" alt="Strawberry Watermelon" />
-      <h2>Strawberry Watermelon</h2>
-      <p class="price">15 €</p>
-    </div>
-    <div class="product">
-      <img src="product_9.jpeg" alt="Peach Ice" />
-      <h2>Peach Ice</h2>
-      <p class="price">15 €</p>
-    </div>
-  </section>
+  </div>
+
+  <footer>
+    &copy; 2025 KR Puffi. All rights reserved.
+  </footer>
 </body>
 </html>
